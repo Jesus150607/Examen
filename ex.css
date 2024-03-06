@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+li{
+    font-family:"C:\Users\Lucia\OneDrive\Escritorio\Examen\font\Roboto-Black.ttf";
+    color:darkblue;
+font-family: "font/Roboto-BlackItalic.ttf";
+    
+}
+p:hover{
+    font-weight: 100;
+    text-shadow: -3px -3px 0px yellow; 
+}
+
+img{
+  display: black;
+  margin: 2px;
+  width: 300px;
+  height: 300px;
+ 
+  border-color: grey;
+  border-radius: 100% ;
+  transition: 2s all ease;
+}
+img:hover{
+  transition: 2s all ease;
+  transform: scale(1.2) rotate(360deg);
+}
+#m1{
+    color: black;
+    text-shadow: -3px -3px 0px white;
+}
+.kj{
+    background-color: black;
+    color: white;
+}
+#d1{
+    display: block;
+    color: black;
+    text-decoration:  none;
+    width: 80px;
+    height: 35px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+#d1:hover{
+    box-shadow: 0 0 5px paleturquoise;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.2);
+    align: left;
+}
+#a1{
+    display: block;
+    color: black;
+    text-decoration:  none;
+    width: 80px;
+    height: 35px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white; 
+}
+#a1 :hover{
+    display: block;
+    color: black;
+    text-decoration:  none;
+    width: 80px;
+    height: 35px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white; 
+}
+dt{
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(39,33,126,1) 0%, rgba(75,75,171,1) 35%, rgba(0,212,255,1) 100%);
+}
+dd:hover{
+    
+    text-shadow: 0 0 5px blueviolet;
+    transform: scale(1.1) translate(20);
+    letter-spacing: 2px;
+   
+}
+#k15:hover{
+    text-shadow: 0 0 5px blueviolet;
+   
+    transform: scale(1.1) translate(20);
+    letter-spacing: 2px;
+}
